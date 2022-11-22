@@ -13,7 +13,7 @@
     "type": "page"
   },
   "blog": {
-    "title": "Blog",
+    "title": "News",
     "type": "page",
     "theme": {
       "sidebar": false

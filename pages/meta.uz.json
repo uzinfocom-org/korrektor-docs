@@ -12,8 +12,8 @@
     "title": "Foydali",
     "type": "page"
   },
-  "blog": {
-    "title": "Blog",
+  "news": {
+    "title": "Yangiliklar",
     "type": "page",
     "theme": {
       "sidebar": false
