@@ -24,15 +24,15 @@ const FEEDBACK_LINK_WITH_TRANSLATIONS = {
 
 const DESCRIPTION_WITH_TRANSLATIONS = {
   "en-US":
-    "Xinux is an Uzbek Linux community created by Uzbek Developers that focuses on influencing and improving Linux.",
-  ru: "Xinux это узбекское Linux-сообщество, созданное узбекскими разработчиками, которое фокусируется на влиянии и улучшении Linux.",
-  uz: "Xinux bu O'zbek Linux Hamjamiyati hisoblanib O'zbek dasturchilari davrasida Linux va uning komponentlarini rivojlantirish va targ'ib qilish bilan shug'ullanadi.",
+    "Korrektor.Uz is an Uzbek Linux community created by Uzbek Developers that focuses on influencing and improving Linux.",
+  ru: "Korrektor.Uz это узбекское Linux-сообщество, созданное узбекскими разработчиками, которое фокусируется на влиянии и улучшении Linux.",
+  uz: "Korrektor.Uz bu O'zbek Linux Hamjamiyati hisoblanib O'zbek dasturchilari davrasida Linux va uning komponentlarini rivojlantirish va targ'ib qilish bilan shug'ullanadi.",
 };
 
 export default {
-  projectLink: "https://github.com/uzinfocom-org/xinux",
+  projectLink: "https://github.com/uzinfocom-org/korrektor-docs",
   docsRepositoryBase: "https://github.com/uzinfocom-org/docs/blob/main/pages",
-  titleSuffix: " – Xinux",
+  titleSuffix: " – Korrektor",
   search: true,
   unstable_flexsearch: true,
   floatTOC: true,
@@ -51,9 +51,9 @@ export default {
         <Logo height={16} />
         <span
           className="mx-2 font-extrabold hidden md:inline select-none"
-          title={"Xinux: " + (TITLE_WITH_TRANSLATIONS[locale] || "")}
+          title={"Korrektor: " + (TITLE_WITH_TRANSLATIONS[locale] || "")}
         >
-          Xinux
+          Korrektor
         </span>
       </>
     );
@@ -109,10 +109,10 @@ export default {
         <meta name="twitter:image" content={ogImage} />
         <meta
           name="og:title"
-          content={title ? title + " – Xinux" : TITLE_WITH_TRANSLATIONS[locale]}
+          content={title ? title + " – Korrektor" : TITLE_WITH_TRANSLATIONS[locale]}
         />
         <meta name="og:image" content={ogImage} />
-        <meta name="apple-mobile-web-app-title" content="Xinux" />
+        <meta name="apple-mobile-web-app-title" content="Korrektor" />
       </>
     );
   },
