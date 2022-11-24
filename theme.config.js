@@ -11,22 +11,24 @@ const Logo = ({ height }) => (
 );
 
 const TITLE_WITH_TRANSLATIONS = {
-  "en-US": "Uzbek Linux Community",
+  en: "Uzbek Linux Community",
   ru: "Узбекское сообщество Linux",
   uz: "O'zbek Linux Hamjamiyati",
+  uzc: "Ўзбек Linux Ҳамжамияти",
 };
 
 const FEEDBACK_LINK_WITH_TRANSLATIONS = {
-  "en-US": "Question? Give us feedback →",
+  en: "Question? Give us feedback →",
   ru: "Вопрос? Дайте нам обратную связь →",
   uz: "Savollar bormi? Shu yerda qoldiring →",
+  uzc: "Саволлар борми? Шу ерда қолдиринг →",
 };
 
 const DESCRIPTION_WITH_TRANSLATIONS = {
-  "en-US":
-    "Korrektor.Uz is an Uzbek Linux community created by Uzbek Developers that focuses on influencing and improving Linux.",
+  en: "Korrektor.Uz is an Uzbek Linux community created by Uzbek Developers that focuses on influencing and improving Linux.",
   ru: "Korrektor.Uz это узбекское Linux-сообщество, созданное узбекскими разработчиками, которое фокусируется на влиянии и улучшении Linux.",
   uz: "Korrektor.Uz bu O'zbek Linux Hamjamiyati hisoblanib O'zbek dasturchilari davrasida Linux va uning komponentlarini rivojlantirish va targ'ib qilish bilan shug'ullanadi.",
+  uzc: "Korrektor.Uz bu O'zbek Linux Hamjamiyati hisoblanib O'zbek dasturchilari davrasida Linux va uning komponentlarini rivojlantirish va targ'ib qilish bilan shug'ullanadi.",
 };
 
 export default {
@@ -156,6 +158,20 @@ export default {
             <span className="mr-2">tomonidan qo'llab quvvatlanadi</span>
           </a>
         );
+      case "uzc":
+        return (
+          <a
+            href="https://oss.uzinfocom.uz"
+            target="_blank"
+            rel="noopener"
+            className="inline-flex items-center no-underline text-current font-semibold"
+          >
+            <span className="mr-2">
+              <Uzinfocom />
+            </span>
+            <span className="mr-2">томонидан қўллаб қувватланади</span>
+          </a>
+        );
       default:
         return (
           <a
@@ -173,8 +189,9 @@ export default {
     }
   },
   i18n: [
-    { locale: "uz", text: "O'zbek" },
-    { locale: "en-US", text: "English" },
+    { locale: "uz", text: "O‘zbek" },
+    { locale: "uzc", text: "Ўзбек" },
     { locale: "ru", text: "Русский" },
+    { locale: "en", text: "English" },
   ],
 };
