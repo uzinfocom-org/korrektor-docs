@@ -10,7 +10,7 @@ specifiers:
   intersection-observer: ^0.10.0
   markdown-to-jsx: ^6.11.4
   next: ^12.2.0
-  nextra: ^2.0.0-beta.6
+  nextra: 2.0.0-beta.6
   nextra-theme-docs: ^2.0.0-beta.6
   postcss: ^8.4.5
   prettier: ^2.7.1
